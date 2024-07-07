@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#Register{
+    background-image: url(https://images5.alphacoders.com/899/thumb-1920-899195.jpg);
+    height: 641px;
+    /* background-blend-mode: darken;
+    filter: brightness(0.2); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-bg{
+    background: white;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    background: #f7efef4f;
+    border-radius: 21px;
+    box-shadow: 1px;
+    box-shadow: 3px -1px 20px 3px rgb(0 0 0 / 52%);
+}
+.login{
+    display: flex;
+    justify-content: space-around;
+}
+.login span{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+.Log-in,.Sign-in{
+    font-size: 24px;
+    font-weight: 700;
+    color: #00000096;
+    opacity: 0.9;
+}
+.Log-in:active{
+    color: rgb(255,0,0);
+}
+.Log-in:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    opacity: 1;
+}
+.Sign-in:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    opacity: 1;
+}
+.login-para{
+    margin-left: 19px;
+    margin-top: 10px;
+    font-family: inherit;
+    font-size: 13px;
+    color: #fefff9;
+}
+.email-login{
+    margin-top: 40px !important;
+    width: 251px !important;
+}
+.password-login{
+    margin-top: 45px !important;
+    width: 251px !important;
+}
+.form-check{
+    margin-top: 15px;
+    margin-left: 2px;
+
+}
+.remember-me{
+    width: 101px;
+    
+}
+.btn-primary a{
+    text-decoration: none;
+    color: white;
+}
+.btn-primary a:hover{
+    text-decoration: none;
+    color: white;
+}

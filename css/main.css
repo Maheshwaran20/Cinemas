@@ -1,0 +1,119 @@
+/* LET THE STYLING BEGIN */
+/* LET THE STYLING BEGIN */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+#Header{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+
+}
+.nav label img{
+  width: 25px;
+  height: 25px;
+  border-radius: 41px;
+}
+.nav h1 a{
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 42px;
+  color: #ffffff !important;
+
+}
+.nav h1 a::first-letter{
+  color:#f71000c7;
+}
+#Header nav{
+    background: #ffffff00!important;
+}
+
+/*nav Item*/
+.collapse{
+  justify-content: space-around;
+}
+ul .nav-item {
+  font-family: "Sawarabi Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.collapse .nav-item .nav-link{
+  margin-left: 23px;
+  font-size: 19px;
+  color: #c5bdbde1 !important;
+  opacity: 0.8;
+}
+.collapse .nav-item .nav-link:hover{
+  opacity: 1;
+  color: rgb(255, 255, 255) !important;
+  transform: all 0.8s ease-in-out;
+  border-radius: 11px 2px 11px 2px;
+  
+}
+.btn a{
+  font-size: 18px;
+  border: none;
+  background: #ff2700 !important;
+  color: white !important;
+  font-family: 'Bona Nova SC';
+  border-radius: 12px;
+  padding: 10px;
+  position: relative;
+  left: -61px;
+  opacity: 0.4;
+  
+
+}
+.btn a:hover{
+  background: white !important;
+  color: #ff2700 !important;
+  transition: all 0.2s cubic-bezier(0.42, 0, 0.48, 0.37);
+  text-decoration: none;
+  opacity: 1;
+}
+
+
+/* Hero Section */
+
+.hero-first{
+  background-image: url(https://cms-assets.webediamovies.pro/cdn-cgi/image/dpr=1,fit=scale-down,gravity=auto,metadata=none,quality=85,width=1500/production/2/d4b0187238fdd49273a12d50e72f434c.jpg);
+  height: 641px;
+  width: 100%;
+  background-blend-mode:darken ;
+  filter: brightness(0.5);
+}
+.hero-second{
+  background-image: url(https://cms-assets.webediamovies.pro/cdn-cgi/image/dpr=1,fit=scale-down,gravity=auto,metadata=none,quality=85,width=1500/production/213/835f6413d263e38dab1a0b6054c984ed.jpg);
+  height: 641px;
+  width: 100%;
+  background-blend-mode:darken ;
+  filter: brightness(0.5);
+}
+.hero-third{
+  background-image: url(https://cms-assets.webediamovies.pro/cdn-cgi/image/dpr=1,fit=scale-down,gravity=auto,metadata=none,quality=85,width=1500/production/213/e3ac0208c0431fb58031a290f54e3d1f.jpg);
+  height: 641px;
+  width: 100%;
+  background-blend-mode:darken ;
+  filter: brightness(0.5);
+}
+/* @media screen and (max-width:480px) {
+  .hero-first{
+    width: 473px;
+    height: 555px;
+  }
+  .hero-SEC{
+    width: 473px;
+    height: 555px;
+  }
+  .hero-first{
+    width: 473px;
+    height: 555px;
+  }
+  
+} */
